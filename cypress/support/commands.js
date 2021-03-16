@@ -1,5 +1,3 @@
-import "cypress-intercept-formdata";
-
 Cypress.Commands.add('submitForm', (contactName, email, phone, message)=>{
   cy.get('#contact_fullname').type(contactName)
   cy.get('#contact_email').type(email)

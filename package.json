@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.7.1",
-    "cypress-intercept-formdata": "^0.1.2"
+    "cypress": "^6.7.1"
   }
 }
